@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="hg-6927-12-v" dir="ltr" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="hg-6927-12-v">urn:uuid:51e33437-ea96-4d49-98ca-892767cb8e47</dc:identifier>
+    <dc:language>pt</dc:language>
+    <dc:title>Supremo Tribunal Justiça</dc:title>
+    <dc:contribuiter>Biblioteca Nacional de Portugal</dc:contribuiter>
+    <dc:creator id="creator">Eduardo Alves de Sá</dc:creator>
+    <meta id="role" property="role" refines="#creator" scheme="marc:relators">aut</meta>
+    <meta property="file-as" refines="#creator">Sá, Eduardo de Alves</meta>
+    <dc:date>1888</dc:date>
+    <dc:coverage>Lisboa</dc:coverage>
+    <dc:publisher>Typographia de Christovão Augusto Rogrigues</dc:publisher>
+    <meta property="dcterms:modified">2021-02-09T22:01:00Z</meta>
+    <meta content="1.4.3" name="Sigil version"/>
+    <meta property="schema:accessibilitySummary">Esta publicação respeita as orientações do WCAG 2.0 Level AA.</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">none</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+  </metadata>
+  <manifest>
+    <item id="capa" href="Text/capa.xhtml" media-type="application/xhtml+xml"/>
+    <item id="indice" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="fichaTecnica" href="Text/fichaTecnica.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sgc-nav" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="x0_2_introducao.xhtml" href="Text/0_2_introducao.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0_1_ficha_tecnica.xhtml" href="Text/0_1_ficha_tecnica.xhtml" media-type="application/xhtml+xml"/>
+    <item id="template.xhtml" href="Text/template.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0_3_advertencia.xhtml" href="Text/0_3_advertencia.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0_4_extra.xhtml" href="Text/0_4_extra.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x1_0.xhtml" href="Text/1_0.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="capa"/>
+    <itemref idref="indice"/>
+    <itemref idref="x0_1_ficha_tecnica.xhtml"/>
+    <itemref idref="x0_2_introducao.xhtml"/>
+    <itemref idref="x0_3_advertencia.xhtml"/>
+    <itemref idref="x0_4_extra.xhtml"/>
+    <itemref idref="x1_0.xhtml"/>
+    <itemref idref="template.xhtml"/>
+    <itemref idref="fichaTecnica"/>
+  </spine>
+</package>
