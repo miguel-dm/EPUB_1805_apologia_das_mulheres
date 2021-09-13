@@ -1,7 +1,7 @@
 # Document Profile
 
 1. Original Document
-    -**Author:** Thomaz, Antoine Léonard, 1732-1785
+    - **Author:** Thomaz, Antoine Léonard, 1732-1785
     - **Title:** Aoplogia das Mulheres
     - **Publisher:** Porto: na Oficina de Antonio Alvarez Ribeiro, 1805
     - **Language:** Portuguese
